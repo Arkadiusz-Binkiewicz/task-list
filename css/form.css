@@ -18,7 +18,7 @@
     border: 1px solid hsl(0, 0%, 80%);
   }
 
-  .form__addButton {
+  .form__button {
     background-color: hsl(180, 100%, 25%);
     color: white;
     border: none;
@@ -27,12 +27,12 @@
     transition: 1s;
   } 
 
-  .form__addButton:hover {
+  .form__button:hover {
     background-color: hsl(180, 100%, 30%);
     transform: scale(1.2);
     transition: 1s;
   }
   
-  .form__addButton:active {
+  .form__button:active {
     background-color: hsl(180, 100%, 35%);
   }
