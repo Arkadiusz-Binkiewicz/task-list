@@ -1,0 +1,8 @@
+.note{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
