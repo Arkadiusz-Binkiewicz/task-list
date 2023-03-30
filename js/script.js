@@ -1,15 +1,6 @@
 {
 
-  const tasks = [
-    {
-      content: "nagrać lekcje",
-      done: false,
-    },
-    {
-      content: "nauczyć się programować",
-      done: true,
-    },
-  ];
+  const tasks = [];
 
   const addNewTask = (newTaskContent) => {
     tasks.push({
@@ -29,7 +20,7 @@
     render();
   };
 
-  const bindEvents = () => {
+  const bindRemoveEvents = () => {
     const removeButtons = document.querySelectorAll(".js-remove");
 
     removeButtons.forEach((removeButton, index) => {
@@ -37,6 +28,9 @@
         removeTask(index);
       });
     });
+  };
+
+  const bindToggleDoneEvents = () => {
 
     const toggleDoneButtons = document.querySelectorAll(".js-done");
 
@@ -69,7 +63,8 @@
 
     document.querySelector(".js-tasks").innerHTML = htmlString;
 
-   bindEvents();
+   bindRemoveEvents();
+   bindToggleDoneEvents();
   };
 
   
