@@ -42,7 +42,7 @@
   };
 
   const toggleHideDoneTasks = () => {
-    hideDoneTasks = !hideDoneTasks;
+    hideDoneTask = !hideDoneTask;
 
     render();
   };
