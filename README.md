@@ -2,7 +2,7 @@
 
 This is my tool for creating a tasks-list. Below is a demo of the project.
 
-![page gif](https://github.com/Arkadiusz-Binkiewicz/tasks-list/blob/main/images/tasksList.gif?raw=true)
+![page gif](https://github.com/Arkadiusz-Binkiewicz/tasks-list/blob/main/images/taskslist1.gif?raw=true)
 
 ## Demo
 
@@ -21,4 +21,8 @@ https://arkadiusz-binkiewicz.github.io/tasks-list/
 - BEM convention
 - Git
 - Grid
+- Flex
 - QuerySelector
+- Spread syntax
+- Transition
+
